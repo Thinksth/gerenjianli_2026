@@ -114,7 +114,7 @@
         </div>
     </nav>
 
-    <!-- 首屏介绍 (Hero Section) -->
+    <!-- 首屏介绍 -->
     <section id="home" class="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between min-h-[90vh]">
         <div class="md:w-3/5 z-10 reveal">
             <h2 class="text-gray-500 text-sm tracking-[0.2em] uppercase mb-4">Content & Operations</h2>
@@ -123,7 +123,7 @@
             </h1>
             <p class="text-xl text-gray-500 mb-8 max-w-lg leading-relaxed">
                 中山大学 大数据传播专业硕士 <br>
-                专注于<span class="text-gray-900 font-medium">新媒体内容策划、平台运营与数据分析</span> <br>具备从0到1的账号搭建经验与复杂信息结构化能力 
+                专注于<span class="text-gray-900 font-medium">新媒体内容策划、平台运营与数据分析</span>。<br>具备从0到1的账号搭建经验与复杂信息结构化能力。
             </p>
             <div class="flex flex-wrap gap-4 text-sm">
                 <a href="#portfolio" class="px-8 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors">查看作品集</a>
@@ -138,7 +138,6 @@
             </div>
         </div>
         <div class="md:w-2/5 mt-16 md:mt-0 flex justify-center md:justify-end reveal" style="transition-delay: 0.2s;">
-            <!-- 头像部分 -->
             <div class="w-64 h-80 bg-gray-100 rounded-2xl relative overflow-hidden group">
                 <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
                     <img src="https://raw.githubusercontent.com/Thinksth/gerenjianli_2026/main/%E4%B8%AA%E4%BA%BA%E7%85%A7-%E7%94%9F%E6%B4%BB.jpg" alt="高靖琳" class="w-full h-full object-cover">
@@ -160,7 +159,7 @@
                         <h3 class="text-2xl font-bold text-gray-900">中山大学</h3>
                         <span class="text-sm px-3 py-1 bg-gray-100 rounded-full font-medium">985 硕士</span>
                     </div>
-                    <p class="text-gray-500 mb-2">新闻传播学院 | 大数据传播</p>
+                    <p class="text-gray-500 mb-2">传播与设计学院 | 大数据传播</p>
                     <p class="text-sm text-gray-400 mb-6">2025.09 - 2027.07</p>
                     <div class="space-y-2">
                         <p class="text-sm text-gray-600"><span class="font-medium text-gray-900">核心课程：</span>新媒体与消费者行为研究、网络爬虫与数据库基础、信息可视化</p>
@@ -184,78 +183,61 @@
         </div>
     </section>
 
-    <!-- 工作经历 -->
+    <!-- 工作经历 (重构为单侧左对齐时间轴) -->
     <section id="experience" class="py-24 bg-white">
-        <div class="max-w-4xl mx-auto px-6">
+        <div class="max-w-3xl mx-auto px-6">
             <h2 class="text-3xl font-bold mb-16 text-center reveal">工作经历</h2>
             
-            <div class="space-y-0">
-                <div class="relative pl-8 md:pl-0 reveal">
-                    <div class="hidden md:block absolute left-1/2 -ml-0.5 w-px h-full bg-gray-100"></div>
-                    <div class="md:flex items-start justify-between w-full">
-                        <div class="hidden md:block md:w-5/12"></div>
-                        <div class="absolute left-0 md:left-1/2 -ml-2 w-4 h-4 bg-gray-900 rounded-full border-4 border-white shadow-sm z-10 mt-1.5"></div>
-                        <div class="md:w-5/12 md:pl-8 pb-12">
-                            <h3 class="text-xl font-bold text-gray-900">广东省研学旅行协会</h3>
-                            <p class="text-gray-500 mt-1">新媒体编辑 / 内容策划与运营</p>
-                            <p class="text-sm text-gray-400 mt-2 mb-4">2023.07 - 2024.03</p>
-                            <ul class="space-y-3 text-sm text-gray-600 list-disc list-outside ml-4">
-                                <li>从0搭建并独立运营小红书账号，策划和撰写结构化种草笔记14篇，运营期间笔记<span class="metric-highlight">总阅读量破1w，总获赞藏超200+</span> </li>
-                                <li>围绕行业发展独立撰写文章，具备复杂信息结构化的高质量输出能力</li>
-                                <li>对接合作方，协助行业会议及资格认证活动的全流程组织与执行（议程设计、控场、复盘）</li>
-                            </ul>
-                        </div>
-                    </div>
+            <div class="relative border-l-2 border-gray-100 ml-4 md:ml-0">
+                
+                <!-- 经历 1 -->
+                <div class="mb-14 ml-8 reveal relative">
+                    <!-- 时间轴圆点 -->
+                    <div class="absolute w-4 h-4 bg-gray-900 rounded-full -left-[41px] border-4 border-white shadow-sm mt-1.5"></div>
+                    <h3 class="text-xl font-bold text-gray-900">广东省研学旅行协会</h3>
+                    <p class="text-gray-500 mt-1">新媒体编辑 / 内容策划与运营</p>
+                    <p class="text-sm text-gray-400 mt-2 mb-4">2023.07 - 2024.03</p>
+                    <ul class="space-y-3 text-sm text-gray-600 list-disc list-outside ml-4">
+                        <li>从0搭建并独立运营小红书账号，策划和撰写结构化种草笔记14篇，运营期间笔记<span class="metric-highlight">总阅读量破1w，总获赞藏超200+</span> </li>
+                        <li>围绕行业发展独立撰写文章，具备复杂信息结构化的高质量输出能力</li>
+                        <li>对接合作方，协助行业会议及资格认证活动的全流程组织与执行（议程设计、控场、复盘）</li>
+                    </ul>
                 </div>
 
-                <div class="relative pl-8 md:pl-0 reveal">
-                    <div class="hidden md:block absolute left-1/2 -ml-0.5 w-px h-full bg-gray-100"></div>
-                    <div class="md:flex items-start justify-between w-full flex-col md:flex-row">
-                        <div class="md:w-5/12 md:pr-8 pb-12 order-2 md:order-1 md:text-right">
-                            <h3 class="text-xl font-bold text-gray-900 mt-2 md:mt-0">南方财经全媒体集团</h3>
-                            <p class="text-gray-500 mt-1">大湾区新闻部实习生</p>
-                            <p class="text-sm text-gray-400 mt-2 mb-4">2022.01 - 2022.06</p>
-                            <div class="space-y-3 text-sm text-gray-600 flex flex-col items-start md:items-end">
-                                <p>原创深度报道33篇，聚焦大湾区财经与政策议题，深度挖掘政策热点</p>
-                                <p>运用工具进行<span class="metric-highlight">数据交叉分析与可视化呈现</span>，将复杂数据转化为易读图表提升可读性</p>
-                            </div>
-                        </div>
-                        <div class="absolute left-0 md:left-1/2 -ml-2 w-4 h-4 bg-gray-300 rounded-full border-4 border-white shadow-sm z-10 mt-1.5 order-1 md:order-2"></div>
-                        <div class="hidden md:block md:w-5/12 order-3"></div>
-                    </div>
+                <!-- 经历 2 -->
+                <div class="mb-14 ml-8 reveal relative">
+                    <div class="absolute w-4 h-4 bg-gray-300 rounded-full -left-[41px] border-4 border-white shadow-sm mt-1.5"></div>
+                    <h3 class="text-xl font-bold text-gray-900">南方财经全媒体集团</h3>
+                    <p class="text-gray-500 mt-1">大湾区新闻部实习生</p>
+                    <p class="text-sm text-gray-400 mt-2 mb-4">2022.01 - 2022.06</p>
+                    <ul class="space-y-3 text-sm text-gray-600 list-disc list-outside ml-4">
+                        <li>原创深度报道33篇，聚焦大湾区财经与政策议题，深度挖掘政策热点</li>
+                        <li>运用工具进行<span class="metric-highlight">数据交叉分析与可视化呈现</span>，将复杂数据转化为易读图表提升可读性</li>
+                    </ul>
                 </div>
 
-                <div class="relative pl-8 md:pl-0 reveal">
-                    <div class="hidden md:block absolute left-1/2 -ml-0.5 w-px h-full bg-gray-100"></div>
-                    <div class="md:flex items-start justify-between w-full">
-                        <div class="hidden md:block md:w-5/12"></div>
-                        <div class="absolute left-0 md:left-1/2 -ml-2 w-4 h-4 bg-gray-300 rounded-full border-4 border-white shadow-sm z-10 mt-1.5"></div>
-                        <div class="md:w-5/12 md:pl-8 pb-12">
-                            <h3 class="text-xl font-bold text-gray-900">南方都市报</h3>
-                            <p class="text-gray-500 mt-1">科教卫新闻部采编实习生</p>
-                            <p class="text-sm text-gray-400 mt-2 mb-4">2021.07 - 2021.12</p>
-                            <ul class="space-y-3 text-sm text-gray-600 list-disc list-outside ml-4">
-                                <li>独立撰写职教行业稿件30篇，深度报道登报且微信推文<span class="metric-highlight">阅读量10万+</span> </li>
-                                <li>策划并剪辑新闻短视频30条，优化移动端适配，<span class="metric-highlight">单条最高播放量6万+</span> </li>
-                            </ul>
-                        </div>
-                    </div>
+                <!-- 经历 3 -->
+                <div class="mb-14 ml-8 reveal relative">
+                    <div class="absolute w-4 h-4 bg-gray-300 rounded-full -left-[41px] border-4 border-white shadow-sm mt-1.5"></div>
+                    <h3 class="text-xl font-bold text-gray-900">南方都市报</h3>
+                    <p class="text-gray-500 mt-1">科教卫新闻部采编实习生</p>
+                    <p class="text-sm text-gray-400 mt-2 mb-4">2021.07 - 2021.12</p>
+                    <ul class="space-y-3 text-sm text-gray-600 list-disc list-outside ml-4">
+                        <li>独立撰写职教行业稿件30篇，深度报道登报且微信推文<span class="metric-highlight">阅读量10万+</span> </li>
+                        <li>策划并剪辑新闻短视频30条，优化移动端适配，<span class="metric-highlight">单条最高播放量6万+</span> </li>
+                    </ul>
                 </div>
                 
-                <div class="relative pl-8 md:pl-0 reveal">
-                    <div class="md:flex items-start justify-between w-full flex-col md:flex-row">
-                        <div class="md:w-5/12 md:pr-8 pb-4 order-2 md:order-1 md:text-right">
-                            <h3 class="text-xl font-bold text-gray-900 mt-2 md:mt-0">暨南大学新闻社</h3>
-                            <p class="text-gray-500 mt-1">采访部副部长 / 跨平台运营</p>
-                            <p class="text-sm text-gray-400 mt-2 mb-4">2020.09 - 2021.06</p>
-                            <div class="space-y-3 text-sm text-gray-600 flex flex-col items-start md:items-end">
-                                <p>负责校级官方抖音、微博、新闻网跨平台运营</p>
-                                <p>制定差异化内容策略，实现<span class="metric-highlight">单条抖音点赞3万+，微博粉丝增长超2万</span>。</p>
-                            </div>
-                        </div>
-                        <div class="absolute left-0 md:left-1/2 -ml-2 w-4 h-4 bg-gray-300 rounded-full border-4 border-white shadow-sm z-10 mt-1.5 order-1 md:order-2"></div>
-                        <div class="hidden md:block md:w-5/12 order-3"></div>
-                    </div>
+                <!-- 经历 4 -->
+                <div class="ml-8 reveal relative">
+                    <div class="absolute w-4 h-4 bg-gray-300 rounded-full -left-[41px] border-4 border-white shadow-sm mt-1.5"></div>
+                    <h3 class="text-xl font-bold text-gray-900">暨南大学新闻社</h3>
+                    <p class="text-gray-500 mt-1">采访部副部长 / 跨平台运营</p>
+                    <p class="text-sm text-gray-400 mt-2 mb-4">2020.09 - 2021.06</p>
+                    <ul class="space-y-3 text-sm text-gray-600 list-disc list-outside ml-4">
+                        <li>负责校级官方抖音、微博、新闻网跨平台运营</li>
+                        <li>制定差异化内容策略，实现<span class="metric-highlight">单条抖音点赞3万+，微博粉丝增长超2万</span>。</li>
+                    </ul>
                 </div>
 
             </div>
@@ -278,7 +260,6 @@
                     </div>
 
                     <div class="h-48 overflow-hidden bg-gray-100 relative">
-                        <!-- 已替换为深度采写封面图 -->
                         <img src="https://raw.githubusercontent.com/Thinksth/gerenjianli_2026/main/%E6%B7%B1%E5%BA%A6%E9%87%87%E5%86%99-%E5%B0%81%E9%9D%A2.jpg" onerror="this.src='https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=800'" alt="深度采写与洞察" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur text-xs font-bold px-3 py-1 rounded-full text-gray-900 z-10">
                             深度采写 / 10W+爆款
@@ -330,7 +311,6 @@
                     </div>
 
                     <div class="h-48 overflow-hidden bg-gray-100 relative">
-                        <!-- 采用抖音截图作为外部封面 -->
                         <img src="https://raw.githubusercontent.com/Thinksth/gerenjianli_2026/main/%E6%8A%96%E9%9F%B3-%E5%BA%94%E6%80%A5%E7%8E%AB%E7%91%B0.png" onerror="this.src='https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&q=80&w=800'" alt="短视频策划" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" style="object-position: center 20%;">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur text-xs font-bold px-3 py-1 rounded-full text-gray-900 z-10">
                             短视频策划 / 社交裂变
@@ -443,16 +423,19 @@
                     </div>
                     <div>
                         <strong class="text-gray-900 block mb-1">2. 数据驱动与交叉分析</strong>
-                        <p>跳脱纯文字叙述，熟练运用数据盘点与交叉比对，将抽象数据转化为逻辑闭环，用扎实的数据支撑深度洞察。</p>
+                        <p>跳脱纯文字叙述，熟练运用数据盘点（如提取上市企业财报数据）与交叉比对，将抽象数据转化为逻辑闭环，用扎实的数据支撑深度洞察。</p>
                     </div>
                     <div>
                         <strong class="text-gray-900 block mb-1">3. 深度访谈与议题挖掘</strong>
-                        <p>具备极强的采访突破能力与业务沟通技巧，通过与业内专家、企业代表的深度对话，挖掘表象背后的行业痛点，策划业务议题。</p>
+                        <p>具备极强的采访突破能力与业务沟通技巧，通过与业内专家、企业代表的深度对话，挖掘表象背后的行业痛点，精准策划业务议题。</p>
+                    </div>
+                    <div>
+                        <strong class="text-gray-900 block mb-1">4. 爆款敏锐度（10W+优质产出）</strong>
+                        <p>将严肃的宏观议题与大众关切的情绪痛点精准结合，在《南方都市报》等主流媒体独立产出多篇阅读量10W+的深度爆款报道。</p>
                     </div>
                 </div>
             </div>
             <div class="bg-gray-50 rounded-xl p-4 flex flex-col items-center justify-start border border-gray-100 min-h-[300px] space-y-4">
-                <!-- 插入南财与南都的两张报道截图 -->
                 <img src="https://raw.githubusercontent.com/Thinksth/gerenjianli_2026/main/%E5%AA%92%E4%BD%93%E9%87%87%E7%BC%96-%E5%8D%97%E8%B4%A2.png" alt="南方财经报道" class="w-full h-auto rounded-lg shadow-sm">
                 <img src="https://raw.githubusercontent.com/Thinksth/gerenjianli_2026/main/%E5%AA%92%E4%BD%93%E7%A8%BF%E4%BB%B6-%E5%8D%97%E9%83%BD.png" alt="南方都市报报道" class="w-full h-auto rounded-lg shadow-sm">
             </div>
@@ -500,8 +483,8 @@
             <p><strong>核心动作：</strong>精准抓取高校生活的情绪痛点，围绕“毕业季”、“军训”、“校园浪漫”等节点进行视频策划与文案撰写。</p>
             <p><strong>爆款案例拆解：</strong></p>
             <ul class="list-disc list-inside ml-2 space-y-2">
-                <li><strong>#浪漫传递</strong>：策划校园应急玫瑰事件，激发学生自发打卡传播。</li>
-                <li><strong>#云端毕业季</strong>：结合校园空镜与学生投稿，配合极具情绪煽动力的配乐，引发校友共鸣。</li>
+                <li><strong>#躲过了520还有521</strong>：策划校园应急玫瑰事件，激发学生自发打卡传播。</li>
+                <li><strong>#云端毕业季</strong>：结合校园空镜与学生投稿，配合极具情绪煽动力的配乐，引发大量校友共鸣。</li>
                 <li><strong>#军训</strong>：燃！兴我邦国，且看暨大青年。</li>
             </ul>
         </div>
